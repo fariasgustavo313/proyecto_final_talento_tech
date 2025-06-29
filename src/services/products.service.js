@@ -19,3 +19,5 @@ export const deleteProduct = async (id) => {
 export const updateProduct = async (id, updatedProduct) => {
     return productService.updateProduct(id, updatedProduct);
 };
+
+export default productService;

@@ -1,5 +1,3 @@
-import "dotenv/config";
-
 import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 
@@ -13,6 +11,7 @@ const firebaseConfig = {
 };
 
 const app = initializeApp(firebaseConfig);
+console.log(firebaseConfig);
 
 const db = getFirestore(app);
 

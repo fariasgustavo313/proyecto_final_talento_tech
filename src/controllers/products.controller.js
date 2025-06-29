@@ -16,6 +16,7 @@ export const getProductById = async (req, res) => {
 };
 
 export const saveProduct = async (req, res) => {
+    const { name, price } = req.body;
     const newProduct = await productService.saveProduct({ name, price });
     res.status(201).json(newProduct);
 };
@@ -27,7 +28,7 @@ export const deleteProduct = async (req, res) => {
 };
 
 export const updateProduct = async (req, res) => {
-    const id = req.parans.id;
+    const id = req.params.id;
     const updatedProduct = req.body;
     try {
         await productService.updateProduct(id, updatedProduct);
