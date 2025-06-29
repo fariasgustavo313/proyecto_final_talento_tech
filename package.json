@@ -1,0 +1,22 @@
+{
+  "name": "proyecto_final",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fariasgustavo313/proyecto_final_talento_tech.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/fariasgustavo313/proyecto_final_talento_tech/issues"
+  },
+  "homepage": "https://github.com/fariasgustavo313/proyecto_final_talento_tech#readme"
+}
