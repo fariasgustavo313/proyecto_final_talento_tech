@@ -1,0 +1,49 @@
+# Node modules
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Entornos
+.env
+.env.*
+
+# Configuración de editor
+.vscode/
+.idea/
+
+# Cobertura de pruebas
+coverage/
+
+# Carpetas de producción
+dist/
+build/
+
+# Archivos temporales
+tmp/
+temp/
+*.tmp
+*.swp
+
+# Archivos de sistemas de Mac
+.AppleDouble
+.LSOverride
+
+# Snapshots de test
+__snapshots__/
+
+# ESLint cache
+.eslintcache
+
+# Otros caches
+.cache/
+.next/
+out/
