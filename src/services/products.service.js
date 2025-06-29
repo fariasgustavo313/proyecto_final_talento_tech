@@ -9,8 +9,7 @@ export const getProductById = async (id) => {
 };
 
 export const saveProduct = async (product) => {
-    const { name, price } = product;
-    return productService.saveProduct(name, price);
+    return productService.saveProduct(product);
 };
 
 export const deleteProduct = async (id) => {
